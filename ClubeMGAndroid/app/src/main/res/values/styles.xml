@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base.TextAppearance.PrimaryText.Inverse" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="AppTheme.Base.TextAppearance.SecondaryText.Inverse" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+        <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#3f51b5</color>
+    <color name="primaryLightColor">#757de8</color>
+    <color name="primaryDarkColor">#002984</color>
+    <color name="secondaryColor">#d50000</color>
+    <color name="secondaryLightColor">#ff5131</color>
+    <color name="secondaryDarkColor">#9b0000</color>
+
+    <!-- Will probably not be used, but will remain here for reference -->
+    <color name="primaryTextColor">#ffffff</color> <!-- Large min opacity: 51%; Normal min opacity: 73% -->
+    <color name="primaryLightTextColor">#000000</color> <!-- Large min opacity: 55%; Normal min opacity: 76% -->
+    <color name="primaryDarkTextColor">#ffffff</color> <!-- Large min opacity: 38%; Normal min opacity: 53% -->
+    <color name="secondaryTextColor">#ffffff</color> <!-- Large min opacity: 70%; Normal min opacity: 90% -->
+    <color name="secondaryLightTextColor">#000000</color> <!-- Large min opacity: 52%; Normal min opacity: 71% -->
+    <color name="secondaryDarkTextColor">#ffffff</color> <!-- Large min opacity: 52%; Normal min opacity: 69% -->
+</resources>
